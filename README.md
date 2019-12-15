@@ -12,3 +12,7 @@ entry：
 传入对象，进行动态获取入口；
 publicPath / Path ---截止阅读位置 3.3.2
 # webpack-playground
+### 第4章. 预处理器
+在webpack中使用相对路径进行安装，会在项目node_modules 中创建一个指向实际 force-strict-loader目录的软链接；
+之后可以随时修改loader源码，不需要重新安装；
+extract-text-webpack-plugin 目前只有beta版本，其他版本不支持webpack4.0.0以上的版本
